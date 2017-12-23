@@ -2,6 +2,7 @@ Readme to Jekyll Bootstrap Doc
 ============================================================
 
 Generate a static Bootstrap+Jekyll website based on a given Readme file.
+Demo: https://kilinkis.github.io/readme-jekyll-bootstrap-doc/
 
 Usage
 ---------------------------------
