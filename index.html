@@ -1,0 +1,19 @@
+---
+layout: default
+title: Home
+description: Simple documentation template for Github pages
+isHome: true
+---
+
+<script>
+    $(document).ready(function() {
+        $('div[role="main"] h1').each( function() {
+          var slug = $(this).text().replace(/\s+/g, '-').toLowerCase();
+          $(this).prepend('<a href="#'+slug+'" class="anchor-link">§</a>')
+          });
+    });
+</script>
+
+
+
+RENDERED_CONTENT
