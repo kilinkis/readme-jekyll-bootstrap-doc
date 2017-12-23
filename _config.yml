@@ -17,7 +17,7 @@ favicon: png
 # download.cdn.img is optional
 download:
   popup: false
-  url: https://github.com/kilinkis/readme-jekyll-bootstrap-doc.zip
+  url: https://github.com/kilinkis/readme-jekyll-bootstrap-doc/archive/master.zip
   bower: readme-jekyll-bootstrap-doc
   npm: readme-jekyll-bootstrap-doc
   cdn:
