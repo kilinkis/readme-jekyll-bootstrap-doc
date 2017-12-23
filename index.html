@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Readme file to Jekyll Bootstrap Doc</title>
+  <title>Readme to Jekyll Bootstrap Doc</title>
 
   
   <link rel="icon" type="image/png" href="favicon.png"/>
@@ -45,7 +45,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/index.html">Readme file to Jekyll Bootstrap Doc</a>
+        <a class="navbar-brand" href="/index.html">Readme to Jekyll Bootstrap Doc</a>
       </div>
       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
         <ul class="nav navbar-nav">
@@ -97,11 +97,11 @@
   
   <div class="bs-docs-masthead" id="content">
     <div class="container">
-      <h1 class="home-title">Readme file to Jekyll Bootstrap Doc</h1>
+      <h1 class="home-title">Readme to Jekyll Bootstrap Doc</h1>
       <p class="lead">Simple documentation template for Github pages</p>
       <p class="lead">
         
-        <a href="https://github.com/kilinkis/readme-jekyll-bootstrap-doc.zip" class="btn btn-outline-inverse btn-lg">Download</a>
+        <a href="https://github.com/kilinkis/readme-jekyll-bootstrap-doc/archive/master.zip" class="btn btn-outline-inverse btn-lg">Download</a>
         
       </p>
       <p class="version">Currently v1.0</p>
@@ -128,7 +128,40 @@
 
 
 
-RENDERED_CONTENT
+<section class="bs-docs-section"><h1 id="readme-to-jekyll-bootstrap-doc" class="page-header">Readme to Jekyll Bootstrap Doc</h1>
+
+<p>Generate a static Bootstrap+Jekyll website based on a given Readme file.</p>
+
+<h2 id="usage">Usage</h2>
+
+<ol>
+<li>Clone repo</li>
+<li>Replace readme.md file with yours</li>
+<li>In the console, run: ruby md2html.rb (Install dependecies if needed [sudo gem install nokogiri redcarpet ])</li>
+<li>Hydriate config.yml with your variables</li>
+<li>Run jekyll: bundle exec jekyll serve</li>
+<li>When ready to publish, compile jekyll: jekyll build</li>
+<li>(optional) Upload to your server</li>
+</ol>
+
+<h2 id="faqs">FAQs</h2>
+
+<p>Q: I updated my readme file and want to update my jekyll as well.</p>
+
+<p>A: Just delete all the content after the  tag in index.html and start from step 3.</p>
+
+<p>Q: After compiling, site/index.html won't load scripts and styles.</p>
+
+<p>A: Three words: Not a bug. Jekyll is made like that on puropose. /site is ready to be uploaded and run in a server. For previewing, use localhost (as in step 5)</p>
+
+<p>Q: How can I edit the footer?</p>
+
+<p>A: Edit layouts/default.html</p>
+
+<h2 id="credits">Credits</h2>
+
+<p>This repo was forked from mistic100's: Jekyll Bootstrap Doc</p>
+</section>
       </div>
 
       <!-- Page navigation
@@ -162,7 +195,7 @@ RENDERED_CONTENT
         
         
           <li>
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-count="horizontal" data-via="" data-text="Readme file to Jekyll Bootstrap Doc" data-hashtags="">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-count="horizontal" data-via="" data-text="Readme to Jekyll Bootstrap Doc" data-hashtags="">Tweet</a>
           </li>
         
         
@@ -201,7 +234,7 @@ RENDERED_CONTENT
   =========================================== -->
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.0.1/trianglify.min.js"></script>
-  <script>jekyllBootstrapDoc.trianglify('#080331', '#673051', 'Readme file to Jekyll Bootstrap Doc');</script>
+  <script>jekyllBootstrapDoc.trianglify('#080331', '#673051', 'Readme to Jekyll Bootstrap Doc');</script>
   
 
   
